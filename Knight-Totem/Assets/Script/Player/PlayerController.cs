@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
     public void Move()
     {
-        rb.velocity = new Vector2(inputDirection.x * speed * Time.deltaTime, rb.velocity.y);
+        rb.velocity = new Vector2(inputDirection.x * speed , rb.velocity.y);
         if (inputDirection.x > 0 && transform.localScale.x < 0 ||
             inputDirection.x < 0 && transform.localScale.x > 0)
         {
