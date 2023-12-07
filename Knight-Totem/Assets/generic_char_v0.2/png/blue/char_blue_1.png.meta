@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -132,10 +152,10 @@ TextureImporter:
       name: char_blue_1_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 0
         y: 560
-        width: 22
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +173,10 @@ TextureImporter:
       name: char_blue_1_1
       rect:
         serializedVersion: 2
-        x: 74
+        x: 56
         y: 560
-        width: 22
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +194,10 @@ TextureImporter:
       name: char_blue_1_2
       rect:
         serializedVersion: 2
-        x: 130
+        x: 112
         y: 560
-        width: 22
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +215,10 @@ TextureImporter:
       name: char_blue_1_3
       rect:
         serializedVersion: 2
-        x: 186
+        x: 168
         y: 560
-        width: 22
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +236,10 @@ TextureImporter:
       name: char_blue_1_4
       rect:
         serializedVersion: 2
-        x: 242
+        x: 224
         y: 560
-        width: 22
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +257,10 @@ TextureImporter:
       name: char_blue_1_5
       rect:
         serializedVersion: 2
-        x: 298
+        x: 280
         y: 560
-        width: 22
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +278,10 @@ TextureImporter:
       name: char_blue_1_6
       rect:
         serializedVersion: 2
-        x: 10
+        x: 0
         y: 504
-        width: 29
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +299,10 @@ TextureImporter:
       name: char_blue_1_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 56
         y: 504
-        width: 28
-        height: 34
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +320,10 @@ TextureImporter:
       name: char_blue_1_8
       rect:
         serializedVersion: 2
-        x: 123
+        x: 112
         y: 504
-        width: 29
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +341,10 @@ TextureImporter:
       name: char_blue_1_9
       rect:
         serializedVersion: 2
-        x: 179
+        x: 168
         y: 504
-        width: 43
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +362,10 @@ TextureImporter:
       name: char_blue_1_10
       rect:
         serializedVersion: 2
-        x: 243
+        x: 224
         y: 504
-        width: 23
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +383,10 @@ TextureImporter:
       name: char_blue_1_11
       rect:
         serializedVersion: 2
-        x: 299
+        x: 280
         y: 504
-        width: 18
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +404,10 @@ TextureImporter:
       name: char_blue_1_12
       rect:
         serializedVersion: 2
-        x: 349
+        x: 336
         y: 504
-        width: 32
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +425,10 @@ TextureImporter:
       name: char_blue_1_13
       rect:
         serializedVersion: 2
-        x: 404
+        x: 392
         y: 504
-        width: 28
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +446,10 @@ TextureImporter:
       name: char_blue_1_14
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 448
-        width: 25
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +467,10 @@ TextureImporter:
       name: char_blue_1_15
       rect:
         serializedVersion: 2
-        x: 74
+        x: 56
         y: 448
-        width: 21
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +488,10 @@ TextureImporter:
       name: char_blue_1_16
       rect:
         serializedVersion: 2
-        x: 131
+        x: 112
         y: 448
-        width: 17
-        height: 33
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +509,10 @@ TextureImporter:
       name: char_blue_1_17
       rect:
         serializedVersion: 2
-        x: 184
-        y: 451
-        width: 23
-        height: 30
+        x: 168
+        y: 447
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +530,10 @@ TextureImporter:
       name: char_blue_1_18
       rect:
         serializedVersion: 2
-        x: 241
-        y: 448
-        width: 21
-        height: 32
+        x: 224
+        y: 447
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +551,10 @@ TextureImporter:
       name: char_blue_1_19
       rect:
         serializedVersion: 2
-        x: 299
+        x: 280
         y: 448
-        width: 18
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +572,10 @@ TextureImporter:
       name: char_blue_1_20
       rect:
         serializedVersion: 2
-        x: 354
+        x: 336
         y: 448
-        width: 22
-        height: 33
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +593,10 @@ TextureImporter:
       name: char_blue_1_21
       rect:
         serializedVersion: 2
-        x: 408
-        y: 451
-        width: 25
-        height: 30
+        x: 392
+        y: 448
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,349 +611,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue-jump1-1
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 392
-        width: 20
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f6a7fd03426edb4fbfc131add946845
-      internalID: 1980401941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump1-2
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 393
-        width: 18
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247ce984f6f375d46b4e3ba1a2ddca11
-      internalID: -1330028431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump2-1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 395
-        width: 23
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 204e4063aa61d4a439a5d294982a83e7
-      internalID: -212724210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump2-2
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 395
-        width: 23
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e508fd2c3ffbd04abc1f703e1ef60d9
-      internalID: 68469477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump2-3
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 395
-        width: 23
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5110d6983b50f9f44a9799e2ad86735a
-      internalID: -1401239716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump2-4
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 395
-        width: 23
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50081c36a50ff854bbcb0069e51bafc3
-      internalID: -1813230134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump3-1
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 401
-        width: 29
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 433be5f63d6a40943ab2f726f892237f
-      internalID: 337329543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump3-2
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 403
-        width: 29
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a42b62229751c344919c84e1cdf2ba7
-      internalID: 1453356812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump3-3
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 345
-        width: 26
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bf1a357657dd434f8114b02d110fab0
-      internalID: 654025244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump4-1
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 339
-        width: 25
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e960c645cd571b4d9bc4d46940a8969
-      internalID: 2000714093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump4-2
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 339
-        width: 25
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a76b0120f50c2cf42b704107b18d0f53
-      internalID: 1779096804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump4-3
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 339
-        width: 25
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07bb55534f8062c4aacc6ba7fde21105
-      internalID: 1422179225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump4-4
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 339
-        width: 25
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a41fc8191d157a042a7cc9fd9cf72205
-      internalID: 1804648856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump5-1
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 336
-        width: 24
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e3bfed9e650714418b2b1e1935c66b1
-      internalID: 688717300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump5-2
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 336
-        width: 18
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1533cf0086364814ca65dffe8f44904d
-      internalID: 324035777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_blue-jump5-3
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 337
-        width: 19
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0165b756a56145d4fbc07e74661bbd51
-      internalID: -1100994945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: char_blue_1_38
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 280
-        width: 20
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +635,10 @@ TextureImporter:
       name: char_blue_1_39
       rect:
         serializedVersion: 2
-        x: 70
+        x: 56
         y: 280
-        width: 23
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +656,10 @@ TextureImporter:
       name: char_blue_1_40
       rect:
         serializedVersion: 2
-        x: 125
+        x: 112
         y: 280
-        width: 24
-        height: 30
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -993,10 +677,10 @@ TextureImporter:
       name: char_blue_1_41
       rect:
         serializedVersion: 2
-        x: 182
+        x: 168
         y: 280
-        width: 23
-        height: 30
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1014,10 +698,10 @@ TextureImporter:
       name: char_blue_1_42
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 224
-        width: 22
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,10 +719,10 @@ TextureImporter:
       name: char_blue_1_43
       rect:
         serializedVersion: 2
-        x: 73
+        x: 56
         y: 224
-        width: 24
-        height: 31
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1056,10 +740,10 @@ TextureImporter:
       name: char_blue_1_44
       rect:
         serializedVersion: 2
-        x: 129
+        x: 112
         y: 224
-        width: 28
-        height: 30
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1077,10 +761,10 @@ TextureImporter:
       name: char_blue_1_45
       rect:
         serializedVersion: 2
-        x: 182
-        y: 226
-        width: 21
-        height: 29
+        x: 168
+        y: 224
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1098,10 +782,10 @@ TextureImporter:
       name: char_blue_1_46
       rect:
         serializedVersion: 2
-        x: 202
-        y: 247
-        width: 11
-        height: 5
+        x: 224
+        y: 224
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,10 +803,10 @@ TextureImporter:
       name: char_blue_1_47
       rect:
         serializedVersion: 2
-        x: 234
-        y: 226
-        width: 25
-        height: 30
+        x: 280
+        y: 224
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +824,10 @@ TextureImporter:
       name: char_blue_1_48
       rect:
         serializedVersion: 2
-        x: 258
-        y: 250
-        width: 11
-        height: 5
+        x: 336
+        y: 224
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1161,10 +845,10 @@ TextureImporter:
       name: char_blue_1_49
       rect:
         serializedVersion: 2
-        x: 289
-        y: 226
-        width: 23
-        height: 28
+        x: 392
+        y: 224
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1182,10 +866,10 @@ TextureImporter:
       name: char_blue_1_50
       rect:
         serializedVersion: 2
-        x: 302
-        y: 244
-        width: 22
-        height: 9
+        x: 0
+        y: 168
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1203,10 +887,10 @@ TextureImporter:
       name: char_blue_1_51
       rect:
         serializedVersion: 2
-        x: 344
-        y: 224
-        width: 24
-        height: 28
+        x: 56
+        y: 168
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,10 +908,10 @@ TextureImporter:
       name: char_blue_1_52
       rect:
         serializedVersion: 2
-        x: 369
-        y: 238
-        width: 11
-        height: 9
+        x: 112
+        y: 168
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +929,10 @@ TextureImporter:
       name: char_blue_1_53
       rect:
         serializedVersion: 2
-        x: 426
-        y: 234
-        width: 11
-        height: 5
+        x: 168
+        y: 168
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1266,10 +950,10 @@ TextureImporter:
       name: char_blue_1_54
       rect:
         serializedVersion: 2
-        x: 394
-        y: 224
-        width: 31
-        height: 12
+        x: 0
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1287,10 +971,10 @@ TextureImporter:
       name: char_blue_1_55
       rect:
         serializedVersion: 2
-        x: 2
-        y: 168
-        width: 32
-        height: 12
+        x: 56
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1308,10 +992,10 @@ TextureImporter:
       name: char_blue_1_56
       rect:
         serializedVersion: 2
-        x: 35
-        y: 173
-        width: 11
-        height: 5
+        x: 112
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,10 +1013,10 @@ TextureImporter:
       name: char_blue_1_57
       rect:
         serializedVersion: 2
-        x: 58
-        y: 168
-        width: 45
-        height: 14
+        x: 168
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,10 +1034,10 @@ TextureImporter:
       name: char_blue_1_58
       rect:
         serializedVersion: 2
-        x: 114
-        y: 168
-        width: 45
-        height: 13
+        x: 224
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1371,10 +1055,10 @@ TextureImporter:
       name: char_blue_1_59
       rect:
         serializedVersion: 2
-        x: 170
-        y: 168
-        width: 45
-        height: 11
+        x: 280
+        y: 112
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,10 +1076,10 @@ TextureImporter:
       name: char_blue_1_60
       rect:
         serializedVersion: 2
-        x: 14
+        x: 336
         y: 112
-        width: 25
-        height: 32
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1413,10 +1097,10 @@ TextureImporter:
       name: char_blue_1_61
       rect:
         serializedVersion: 2
-        x: 66
+        x: 392
         y: 112
-        width: 25
-        height: 39
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1434,10 +1118,10 @@ TextureImporter:
       name: char_blue_1_62
       rect:
         serializedVersion: 2
-        x: 122
-        y: 112
-        width: 24
-        height: 41
+        x: 0
+        y: 56
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1455,10 +1139,10 @@ TextureImporter:
       name: char_blue_1_63
       rect:
         serializedVersion: 2
-        x: 177
-        y: 112
-        width: 25
-        height: 51
+        x: 56
+        y: 56
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1476,10 +1160,10 @@ TextureImporter:
       name: char_blue_1_64
       rect:
         serializedVersion: 2
-        x: 234
-        y: 112
-        width: 24
-        height: 55
+        x: 112
+        y: 56
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1497,10 +1181,10 @@ TextureImporter:
       name: char_blue_1_65
       rect:
         serializedVersion: 2
-        x: 290
-        y: 112
-        width: 24
-        height: 51
+        x: 0
+        y: 0
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1518,10 +1202,10 @@ TextureImporter:
       name: char_blue_1_66
       rect:
         serializedVersion: 2
-        x: 346
-        y: 112
-        width: 24
-        height: 51
+        x: 56
+        y: 0
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1539,10 +1223,10 @@ TextureImporter:
       name: char_blue_1_67
       rect:
         serializedVersion: 2
-        x: 406
-        y: 112
-        width: 25
-        height: 32
+        x: 112
+        y: 0
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1557,13 +1241,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_68
+      name: char_blue_jump1-1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 56
-        width: 20
-        height: 29
+        x: 0
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1571,20 +1255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54ccd8e92c038984da077274a1971a89
-      internalID: -830924968
+      spriteID: 093ed6586a839e44f9c22b744c27403c
+      internalID: -1193240869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_69
+      name: char_blue_jump1-2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 56
-        width: 20
-        height: 27
+        x: 56
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1592,20 +1276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3b7e73bbb1b774e8027a13df0d32af
-      internalID: 330781849
+      spriteID: 0ae052de822230440a21b654f52b2746
+      internalID: -155479627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_70
+      name: char_blue_jump2-1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 56
-        width: 20
-        height: 27
+        x: 112
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1613,20 +1297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 707b1fb58d157964cb68f4cf0e922bba
-      internalID: 1574069823
+      spriteID: 8de080b4bb5742346843b9f92e226257
+      internalID: 1756445608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_71
+      name: char_blue_jump2-2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 22
-        height: 32
+        x: 168
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1634,20 +1318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a596a275503ff97449d5507ceb196aab
-      internalID: -2049104499
+      spriteID: 119d3d40d37b947499d9284e8552e512
+      internalID: 1517836315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_72
+      name: char_blue_jump2-3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 19
-        height: 31
+        x: 224
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1655,20 +1339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07d86c3789dde249987b42fc88f1c35
-      internalID: 761518351
+      spriteID: 99d31db9f0e57674d9e3eca830d5b600
+      internalID: -1998224147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_blue_1_73
+      name: char_blue_jump2-4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 19
-        height: 31
+        x: 280
+        y: 392
+        width: 56
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1676,8 +1360,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d97008e1d158e24e83e1e27106d384e
-      internalID: -325469117
+      spriteID: 72990268aac69584abc4ca95af11da8f
+      internalID: -1108695179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump3-1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 392
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903482280feaa434cadca9cb8e3eb889
+      internalID: -2037474878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump3-2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 392
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73c696536ec9984984a093820867924
+      internalID: 882801878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump3-3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bcde919a037d24b8b6cf50ddc88b42
+      internalID: -1534493693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump4-1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47e1d2677ff72b4083694f07d425aa5
+      internalID: -461763356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump4-2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e912a068169d354d97a7bc3cd4a4c98
+      internalID: -1198795758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump4-3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8c99293b2af1342942f724c1f7a56d
+      internalID: -97513294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump4-4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42eada8d177e984aa044120d18d736c
+      internalID: -514892512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump5-1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fcc587d81628d4d8389cb8fbd33210
+      internalID: 1422669492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump5-2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f60ddc2c937f140a26cf09d21bdd0f
+      internalID: -2050980764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_jump5-3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 336
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9981c4815091af46b72accd107aff1a
+      internalID: 1562326932
       vertices: []
       indices: 
       edges: []
@@ -1693,83 +1587,76 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_blue_1_56: 1098079513
-      char_blue_1_11: -2916761
-      char_blue_1_50: -1838460706
-      char_blue-jump4-1: 2000714093
-      char_blue_1_8: 890660010
-      char_blue-jump3-2: 1453356812
-      char_blue-jump3-3: 654025244
-      char_blue_1_44: 741505796
-      char_blue_1_70: 1574069823
-      char_blue_1_51: -827638135
-      char_blue-jump4-4: 1804648856
-      char_blue_1_5: -486028809
-      char_blue_1_38: 1171397333
-      char_blue_1_7: 342158446
-      char_blue_1_49: -420260571
-      char_blue_1_10: 876023360
-      char_blue_1_13: 719658488
-      char_blue_1_39: 806990205
-      char_blue-jump2-4: -1813230134
-      char_blue_1_72: 761518351
-      char_blue_1_17: 1194346209
-      char_blue_1_64: 1678206145
-      char_blue_1_47: 612002998
-      char_blue-jump1-1: 1980401941
-      char_blue_1_69: 330781849
-      char_blue_1_55: -265158460
-      char_blue_1_52: -1486606495
-      char_blue_1_58: -1362132904
-      char_blue_1_3: -939138180
-      char_blue-jump4-2: 1779096804
-      char_blue_1_71: -2049104499
-      char_blue_1_6: 1926135698
-      char_blue-jump2-2: 68469477
-      char_blue_1_73: -325469117
-      char_blue-jump2-1: -212724210
-      char_blue_1_21: 121305130
-      char_blue_1_57: 123034331
-      char_blue-jump2-3: -1401239716
-      char_blue_1_65: -1289043120
-      char_blue-jump5-2: 324035777
-      char_blue_1_68: -830924968
-      char_blue-jump4-3: 1422179225
-      char_blue_1_2: -895111604
-      char_blue_1_1: -1086182355
-      char_blue_1_46: 750025373
-      char_blue_1_42: -873564962
       char_blue_1_0: 1642558718
-      char_blue_1_67: -187064443
-      char_blue_1_18: 857437478
-      char_blue_1_41: -116984954
-      char_blue-jump5-3: -1100994945
-      char_blue_1_60: -1335006852
-      char_blue-jump1-2: -1330028431
-      char_blue-jump5-1: 688717300
-      char_blue_1_61: -1870107108
-      char_blue_1_40: 998669142
-      char_blue_1_63: -916034030
+      char_blue_1_1: -1086182355
+      char_blue_1_10: 876023360
+      char_blue_1_11: -2916761
       char_blue_1_12: 780006628
+      char_blue_1_13: 719658488
       char_blue_1_14: 2105844413
-      char_blue_1_43: 1893475306
+      char_blue_1_15: 323603443
+      char_blue_1_16: -1050869541
+      char_blue_1_17: 1194346209
+      char_blue_1_18: 857437478
       char_blue_1_19: 1262284063
-      char_blue_1_45: -1725053499
-      char_blue_1_59: 702061261
+      char_blue_1_2: -895111604
       char_blue_1_20: -850784335
+      char_blue_1_21: 121305130
+      char_blue_1_3: -939138180
+      char_blue_1_38: 1171397333
+      char_blue_1_39: 806990205
       char_blue_1_4: 494606842
-      char_blue_1_9: -1590649871
+      char_blue_1_40: 998669142
+      char_blue_1_41: -116984954
+      char_blue_1_42: -873564962
+      char_blue_1_43: 1893475306
+      char_blue_1_44: 741505796
+      char_blue_1_45: -1725053499
+      char_blue_1_46: 750025373
+      char_blue_1_47: 612002998
+      char_blue_1_48: 1166612421
+      char_blue_1_49: -420260571
+      char_blue_1_5: -486028809
+      char_blue_1_50: -1838460706
+      char_blue_1_51: -827638135
+      char_blue_1_52: -1486606495
       char_blue_1_53: -2069572256
       char_blue_1_54: 960529134
-      char_blue-jump3-1: 337329543
-      char_blue_1_48: 1166612421
-      char_blue_1_16: -1050869541
-      char_blue_1_15: 323603443
-      char_blue_1_66: -1714102270
+      char_blue_1_55: -265158460
+      char_blue_1_56: 1098079513
+      char_blue_1_57: 123034331
+      char_blue_1_58: -1362132904
+      char_blue_1_59: 702061261
+      char_blue_1_6: 1926135698
+      char_blue_1_60: -1335006852
+      char_blue_1_61: -1870107108
       char_blue_1_62: -510833873
-  spritePackingTag: 
+      char_blue_1_63: -916034030
+      char_blue_1_64: 1678206145
+      char_blue_1_65: -1289043120
+      char_blue_1_66: -1714102270
+      char_blue_1_67: -187064443
+      char_blue_1_7: 342158446
+      char_blue_1_8: 890660010
+      char_blue_1_9: -1590649871
+      char_blue_jump1-1: -155479627
+      char_blue_jump1-2: 1756445608
+      char_blue_jump2-1: 1517836315
+      char_blue_jump2-2: -1998224147
+      char_blue_jump2-3: -1108695179
+      char_blue_jump2-4: -2037474878
+      char_blue_jump3-1: 882801878
+      char_blue_jump3-2: -1534493693
+      char_blue_jump3-3: -461763356
+      char_blue_jump4-1: -1198795758
+      char_blue_jump4-2: -97513294
+      char_blue_jump4-3: -514892512
+      char_blue_jump4-4: 1422669492
+      char_blue_jump5-1: 1562326932
+      char_blue_jump5-2: -2050980764
+      char_blue_jump5-3: -2050980764
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

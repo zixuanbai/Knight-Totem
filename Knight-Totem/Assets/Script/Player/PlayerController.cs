@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     public Vector2 inputDirection;
     public float speed;
     public float jumpForce;
+    public float damageForce;
+    public bool isDamaged;
+    public bool isDied;
+
 
 
 
@@ -46,6 +50,7 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if(!isDamaged)
         Move();
     }
 
@@ -82,5 +87,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void GetDamaged(Transform attacker)
+    {
+        isDamaged = true;
+        rb.velocity = Vector2.zero;
+        Vector2 dir = new Vector2((transform.position.x - attacker.position.x), 0).normalized;
+        rb.AddForce(dir * damageForce, ForceMode2D.Impulse);
+    }
+    public void PlayerDied()
+    {
+        isDied = true;
+        inputControl.Gameplay.Disable();
+
+    }
 }
 

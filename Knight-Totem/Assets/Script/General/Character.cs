@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Character : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class Character : MonoBehaviour
     public float damageTime;
     private float damageTimeCounter;
     public bool noDamage;
+
+
+    public UnityEvent<Transform> onTakeDamage;
+    public UnityEvent OnDie;
 
     private void Start()
     {
@@ -37,10 +42,12 @@ public class Character : MonoBehaviour
         {
             currentHealth -= attacker.damage;
             TriggerNoDamage();
+            onTakeDamage?.Invoke(attacker.transform);
         }
         else
         {
             currentHealth = 0;
+            OnDie?.Invoke();
         }
     }
 
