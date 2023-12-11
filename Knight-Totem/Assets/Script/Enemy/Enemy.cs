@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
     public float waitTime;
     public float waitTimeCounter;
     public bool wait;
+    public bool isHurt;
+    public bool isDead;
+    public float hurtForce;
+    public Transform attacker;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -36,7 +40,8 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Move();
+        if(!isHurt&&!isDead)
+           Move();
     }
 
     public virtual void Move()
@@ -59,4 +64,39 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    public void OnTakeDamage(Transform attackTrans)
+    {
+        attacker = attackTrans;
+        if (attackTrans.position.x - transform.position.x >0)
+            transform.localScale = new Vector3(-1, 1, 1);
+        if (attackTrans.position.x - transform.position.x < 0)
+            transform.localScale = new Vector3(1, 1, 1);
+
+        isHurt = true;
+        anim.SetTrigger("Hurt");
+        Vector2 dir = new Vector2(transform.position.x - attackTrans.position.x, 0).normalized;
+
+        StartCoroutine(OnHurt(dir));
+    }
+
+    private IEnumerator OnHurt(Vector2 dir)
+    {
+        
+        rb.AddForce(dir * hurtForce, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.5f);
+        isHurt = false;
+    }
+
+    public void OnDie()
+    {
+        gameObject.layer = 2;
+        anim.SetBool("Dead", true);
+        isDead = true;
+    }
+
+    public void Destroy()
+    {
+        Destroy(this.gameObject);
+    }
+         
 }
