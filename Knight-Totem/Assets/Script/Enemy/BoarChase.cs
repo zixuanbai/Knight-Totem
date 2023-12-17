@@ -18,6 +18,7 @@ public class BoarChase : EnemyState
 
         if (!currentEnemy.physicsCheck.isGround || (currentEnemy.physicsCheck.touchLeftWall && currentEnemy.faceDir.x < 0) || (currentEnemy.physicsCheck.touchRightWall && currentEnemy.faceDir.x > 0))
         {
+            Debug.Log("Physical conditions triggered (ground/wall touch).");
             currentEnemy.transform.localScale = new Vector3(currentEnemy.faceDir.x, 1, 1);
         }
     }
@@ -27,7 +28,7 @@ public class BoarChase : EnemyState
     }
     public override void OnExit()
     {
-        currentEnemy.lostTimeCounter = currentEnemy.lostTime;
+        
         currentEnemy.anim.SetBool("Run", false);
 
     }

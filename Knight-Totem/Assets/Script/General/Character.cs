@@ -12,13 +12,14 @@ public class Character : MonoBehaviour
     private float damageTimeCounter;
     public bool noDamage;
 
-
+    public UnityEvent<Character> OnHealthChange;
     public UnityEvent<Transform> onTakeDamage;
     public UnityEvent OnDie;
 
     private void Start()
     {
         currentHealth = maxHealth;
+        OnHealthChange?.Invoke(this);
     }
     
     private void Update()
@@ -49,6 +50,7 @@ public class Character : MonoBehaviour
             currentHealth = 0;
             OnDie?.Invoke();
         }
+        OnHealthChange?.Invoke(this);
     }
 
     private void TriggerNoDamage()

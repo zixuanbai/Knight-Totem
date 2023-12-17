@@ -67,6 +67,7 @@ public class Enemy : MonoBehaviour
 
     public virtual void Move()
     {
+        Debug.Log($"Moving. Direction: {faceDir.x}, Speed: {currentSpeed}");
         rb.velocity = new Vector2(currentSpeed * faceDir.x * Time.deltaTime, rb.velocity.y);
     }
 
@@ -79,25 +80,31 @@ public class Enemy : MonoBehaviour
             {
                 wait = false;
                 waitTimeCounter = waitTime;
-
                 transform.localScale = new Vector3(faceDir.x, 1, 1);
             }
-
         }
-        if (!FoundPlayer()&&lostTimeCounter>0)
+
+        if (!FoundPlayer() && lostTimeCounter > 0)
         {
             lostTimeCounter -= Time.deltaTime;
         }
-
+        else if (FoundPlayer()) 
+        {
+            Debug.Log($"Lost time counter decreasing: {lostTimeCounter}");
+            lostTimeCounter = lostTime;
+        }
     }
 
     public bool FoundPlayer()
     {
-        return Physics2D.BoxCast(transform.position + (Vector3)centerOffset, checkSize, 0, faceDir, checkDistance, attackLayer);
+        bool found = Physics2D.BoxCast(transform.position + (Vector3)centerOffset, checkSize, 0, faceDir, checkDistance, attackLayer);
+        Debug.Log($"Found player: {found}");
+        return found;
     }
 
     public void SwitchState(NPCState state)
     {
+        Debug.Log($"Switching state from {currentState} to {state}");
         var newState = state switch
         {
             NPCState.Patrol => patrolState,
@@ -109,10 +116,7 @@ public class Enemy : MonoBehaviour
         currentState.OnEnter(this);
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(transform.position + (Vector3)centerOffset+new Vector3(checkDistance*-transform.localScale.x,0), 0.2f);
-    }
+   
 
     public void OnTakeDamage(Transform attackTrans)
     {
@@ -149,6 +153,10 @@ public class Enemy : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position + (Vector3)centerOffset + new Vector3(checkDistance * -transform.localScale.x, 0, 0), 0.2f);
+    }
 
-         
+
 }
