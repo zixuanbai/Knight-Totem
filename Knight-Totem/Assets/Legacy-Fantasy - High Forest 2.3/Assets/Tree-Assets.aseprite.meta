@@ -307,7 +307,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 128
+      x: 132
       y: 368
       width: 16
       height: 16
