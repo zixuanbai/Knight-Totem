@@ -18,7 +18,7 @@ public class BoarPatrol : EnemyState
         }
         if (!currentEnemy.physicsCheck.isGround || (currentEnemy.physicsCheck.touchLeftWall && currentEnemy.faceDir.x < 0) || (currentEnemy.physicsCheck.touchRightWall && currentEnemy.faceDir.x > 0))
         {
-            Debug.Log("Physical conditions triggered (ground/wall touch).");
+            
             currentEnemy.wait = true;
             currentEnemy.anim.SetBool("Walk", false);
         }

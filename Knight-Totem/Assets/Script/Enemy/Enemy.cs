@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
 
     public virtual void Move()
     {
-        Debug.Log($"Moving. Direction: {faceDir.x}, Speed: {currentSpeed}");
+       
         rb.velocity = new Vector2(currentSpeed * faceDir.x * Time.deltaTime, rb.velocity.y);
     }
 
@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
         }
         else if (FoundPlayer()) 
         {
-            Debug.Log($"Lost time counter decreasing: {lostTimeCounter}");
+            
             lostTimeCounter = lostTime;
         }
     }
@@ -98,13 +98,13 @@ public class Enemy : MonoBehaviour
     public bool FoundPlayer()
     {
         bool found = Physics2D.BoxCast(transform.position + (Vector3)centerOffset, checkSize, 0, faceDir, checkDistance, attackLayer);
-        Debug.Log($"Found player: {found}");
+        
         return found;
     }
 
     public void SwitchState(NPCState state)
     {
-        Debug.Log($"Switching state from {currentState} to {state}");
+        
         var newState = state switch
         {
             NPCState.Patrol => patrolState,
